@@ -21,7 +21,7 @@ design**, synchronous logic, and real hardware integration.
 ---
 
 ## Hardware Demonstration
-![FPGA hardware demo](docs/hardware_demo.jpg)
+![FPGA hardware demo](src/docs/hardware_demo.jpg)
 
 The image above shows the project running on **real FPGA hardware**, with LEDs
 and seven-segment displays active.
