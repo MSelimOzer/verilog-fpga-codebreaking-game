@@ -4,7 +4,7 @@
 
 This project is a **Mastermind-style codebreaking game** implemented in **Verilog HDL** and deployed on a **Tang Nano 9K FPGA board**.
 
-The design was developed as part of a **Digital Design** course and uses a **university-produced daughter board** that provides switches, LEDs, and seven-segment displays. The main focus of the project is **finite state machine (FSM) design**, synchronous digital logic, and real hardware integration.
+The design was developed as part of a **Digital System Design** course and uses a **university-produced daughter board** that provides switches, LEDs, and seven-segment displays. The main focus of the project is **finite state machine (FSM) design**, synchronous digital logic, and real hardware integration.
 
 ---
 
@@ -57,6 +57,15 @@ The image above shows the project running on **real FPGA hardware**, with LEDs a
 * Visual feedback is provided via LEDs and seven-segment displays.
 
 ---
+## Game Flow (FSM Overview)
+
+The game is controlled by a finite state machine with the following phases:
+1. Initialization / reset
+2. Secret code setup
+3. Player guess entry
+4. Guess evaluation
+5. Win or lose indication
+---
 
 ## Academic Context & Attribution
 
@@ -71,13 +80,13 @@ The following components were **provided by the course infrastructure** and are 
 * FPGA constraint (`.cst`) file
 * Tang Nano 9K FPGA board and university-produced daughter board
 
-All **game logic**, **FSM design**, and **top-level system integration** were designed and implemented by me.
+All **game logic**, **FSM design**, and **top-level system integration** were designed and implemented collaboratively as a two-person team.
 
 ---
 
 ## Evaluation
 
-The project was successfully demonstrated on real hardware during the course evaluation and received **full marks**.
+The project was successfully demonstrated on real hardware during the course evaluation and received **full marks** as a team submission.
 
 ---
 
